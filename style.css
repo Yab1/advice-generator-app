@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+  /* Primary */
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+  /* Neutral */
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayishBlue: hsl(217, 19%, 24%);
+  --DarkBlue: hsl(218, 23%, 16%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--DarkBlue);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.d-flex {
+  display: flex;
+}
+.container {
+  background-color: var(--DarkGrayishBlue);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  position: relative;
+  border-radius: 0.7em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+  color: var(--LightCyan);
+  padding: 5%;
+  padding-bottom: 15%;
+}
+h6 {
+  color: var(--NeonGreen);
+  letter-spacing: 0.3em;
+}
+blockquote {
+  font-weight: 800;
+}
+button {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--NeonGreen);
+  border: none;
+  width: 4em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  top: 93%;
+  z-index: 1;
+}
+img {
+  background-size: 100%;
+}
